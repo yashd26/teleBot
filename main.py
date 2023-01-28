@@ -1,8 +1,7 @@
-﻿#am not deploying this so just run the code, search the bot on tele(@tempDelhiBot) and play with it:)
+#am not deploying this so just run the code, search the bot on tele(@tempDelhiBot) and play with it:)
 '''
 dependencies
 pip install python-telegram-bot
-pip install logging
 '''
 
 import logging
