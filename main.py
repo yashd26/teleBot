@@ -32,7 +32,7 @@ async def once(context: ContextTypes.DEFAULT_TYPE):
         await context.bot.send_message(chat_id=id, text=message)
 
 if __name__ == '__main__':
-    application = ApplicationBuilder().token('5844166519:AAGhqx9TMshHNV0yKIxGO82azLKMVCTU-7w').build()
+    application = ApplicationBuilder().token('Enter ur token').build()
 
     start_handler = CommandHandler('start', start)
     application.add_handler(start_handler)
